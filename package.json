@@ -1,0 +1,29 @@
+{
+  "name": "nyan-cat-discord-bot",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/beverleysun/nyan-cat-discord-bot.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/beverleysun/nyan-cat-discord-bot/issues"
+  },
+  "homepage": "https://github.com/beverleysun/nyan-cat-discord-bot#readme",
+  "dependencies": {
+    "@discordjs/opus": "^0.3.2",
+    "discord-ytdl-core": "^4.0.8",
+    "discord.js": "^12.3.1",
+    "merge-options": "^3.0.3",
+    "node-fetch": "^2.6.1",
+    "spotify-url-info": "^2.0.0",
+    "ytpl": "^1.0.1",
+    "ytsr": "^1.0.1"
+  }
+}
