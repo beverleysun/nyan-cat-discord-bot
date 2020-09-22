@@ -15,6 +15,6 @@ client.on("voiceStateUpdate", async (oldState, newState) => {
   let track = await client.player
     .play(channel, "nyan cat", newState.member)
     .catch((e) => {
-      console.log("hi");
+      console.log(e.message);
     });
 });
